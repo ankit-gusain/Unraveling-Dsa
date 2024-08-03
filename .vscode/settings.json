@@ -2,6 +2,7 @@
     "files.associations": {
         "*.css": "css",
         "*.js": "javascript",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "vector": "cpp"
     }
 }
