@@ -1,1 +1,6 @@
-    cout << A.name;
+
+    // default constructor
+    Student()
+    {
+        cout << "\ndefault constructor called";
+    }
