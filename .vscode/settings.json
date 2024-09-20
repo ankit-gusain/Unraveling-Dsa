@@ -2,6 +2,11 @@
     "files.associations": {
         "*.css": "css",
         "*.js": "javascript",
-        "iostream": "cpp"
-    }
+        "iostream": "cpp",
+        "new": "cpp"
+    },
+    "Codegeex.GenerationPreference": "line by line",
+    "Codegeex.CompletionDelay": 3,
+    "Codegeex.Chat.fontSize": 12,
+    "Codegeex.CommitMessage.LanguagePreference": "English"
 }
