@@ -3,7 +3,6 @@ using namespace std;
 
 void printsubseqences(int index, int arr[], vector<int> &ds, int n)
 {
-    // base case
     if (index == n)
     {
         for (int val : ds)
@@ -14,12 +13,10 @@ void printsubseqences(int index, int arr[], vector<int> &ds, int n)
         return;
     }
 
-    // inc
     ds.push_back(arr[index]);
     printsubseqences(index + 1, arr, ds, n);
     ds.pop_back();
 
-    // exc
     printsubseqences(index + 1, arr, ds, n);
 }
 
